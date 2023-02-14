@@ -21,7 +21,12 @@ const Sidenav = () => {
       { 
         //if nav state is true
         nav ? (
-          <div></div>
+          <div>
+            <a href='#main'>
+              <AiOutlineHome size={20}/>
+              <span className='pl-4'>Home</span>
+            </a>
+          </div>
         ):(
         // else nav state is false
           <div></div>
