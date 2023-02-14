@@ -12,10 +12,12 @@ const Sidenav = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
+    //test
+    console.log('state changed');
   }
   return (
     <div>
-      <AiOutlineMenu className='absolute top-4 right-4 z-[99] md:hidden'/>
+      <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
     </div>
   )
 }
