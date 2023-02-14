@@ -18,6 +18,15 @@ const Sidenav = () => {
   return (
     <div>
       <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
+      { 
+        //if nav state is true
+        nav ? (
+          <div></div>
+        ):(
+        // else nav state is false
+          <div></div>
+        )
+      }
     </div>
   )
 }
