@@ -22,7 +22,7 @@ const Sidenav = () => {
         //if nav state is true
         nav ? (
           <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
-            <a href='#main'>
+            <a href='#main' className='w-[75%] flex justify-center'>
               <AiOutlineHome size={20}/>
               <span className='pl-4'>Home</span>
             </a>
