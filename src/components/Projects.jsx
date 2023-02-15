@@ -19,7 +19,7 @@ const Projects = () => {
                 {/* <p className='pb-4 pt-2 text-white text-center'>React</p> */}
                 
                 <a href='https://github.com/Anthya1104/ebook-fe'>
-                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info
+                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg hover:scale-110 ease-in duration-300'>More Info
                 </p>
                 </a>
             </div>       
@@ -28,12 +28,13 @@ const Projects = () => {
             <img src={maskMapImg} alt='/' className='rounded-xl group-hover:opacity-10'/>
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-xl font-bold text-white tracking-wider text-center pb-4 pt-2'>
-                口罩地圖
+                口罩實名制
+                <br />即時庫存地圖
                 </h3>
                 {/* <p className='pb-4 pt-2 text-white text-center'>React</p> */}
                 
                 <a href='https://vicliu0325.github.io/mask-map/'>
-                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info
+                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg hover:scale-110 ease-in duration-300'>More Info
                 </p>
                 </a>
             </div>       
@@ -47,8 +48,8 @@ const Projects = () => {
                 </h3>
                 {/* <p className='pb-4 pt-2 text-white text-center'>React</p> */}
                 
-                <a href='https://taiwaninternationallightfestival.000webhostapp.com/'>
-                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info
+                <a href='https://taiwaninternationallightfestival.000webhostapp.com/' >
+                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg hover:scale-110 ease-in duration-300'>More Info
                 </p>
                 </a>
             </div>       
