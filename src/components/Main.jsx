@@ -1,6 +1,8 @@
 //rfce
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
+import {FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
+
 
 function Main() {
   return (
@@ -9,7 +11,7 @@ function Main() {
         {/*在背景圖片上加半透明白色背景*/}
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
             {/* 安裝react typed animation 製作打字效果 */}
-            <div>
+            <div className=''>
                 <h1>I'm Vic Liu</h1>
                 <h2>I'm a
                 <TypeAnimation
@@ -17,8 +19,7 @@ function Main() {
                         'Developer', // Types 'One'
                         1000, // Waits 1s
                         'Coder', // Deletes 'One' and types 'Two'
-                        2000, // Waits 2s
-                        // 'Two Three', // Types 'Three' without deleting 'Two'
+                        2000, // Waits 2s  // 'Two Three', // Types 'Three' without deleting 'Two'
                     ]}
                     wrapper="div"
                     cursor={true}
@@ -26,6 +27,13 @@ function Main() {
                     style={{ fontSize: '1em', paddingLeft:'5px' }}
                 />
                 </h2>
+                {/* 加入社群連結icon */}
+                <div className=''>
+                    <FaTwitter className='cursor-pointer' size={20}/>
+                    <FaFacebookF className='cursor-pointer' size={20}/>
+                    <FaInstagram className='cursor-pointer' size={20}/>
+                    <FaLinkedinIn className='cursor-pointer' size={20}/>
+                </div>
             </div>
         </div>
 
