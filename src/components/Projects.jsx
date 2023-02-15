@@ -19,7 +19,8 @@ const Projects = () => {
                 {/* <p className='pb-4 pt-2 text-white text-center'>React</p> */}
                 
                 <a href='https://github.com/Anthya1104/ebook-fe'>
-                <p className='text-center p-3 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info</p>
+                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info
+                </p>
                 </a>
             </div>       
         </div>    
@@ -32,7 +33,8 @@ const Projects = () => {
                 {/* <p className='pb-4 pt-2 text-white text-center'>React</p> */}
                 
                 <a href='https://vicliu0325.github.io/mask-map/'>
-                <p className='text-center p-3 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info</p>
+                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info
+                </p>
                 </a>
             </div>       
         </div>  
@@ -46,7 +48,8 @@ const Projects = () => {
                 {/* <p className='pb-4 pt-2 text-white text-center'>React</p> */}
                 
                 <a href='https://taiwaninternationallightfestival.000webhostapp.com/'>
-                <p className='text-center p-3 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info</p>
+                <p className='text-center p-2 rounded-lg bg-white to-gray-700 font-bold cursor-pointer text-lg'>More Info
+                </p>
                 </a>
             </div>       
         </div>          
