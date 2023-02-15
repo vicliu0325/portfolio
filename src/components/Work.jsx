@@ -5,7 +5,7 @@ const data = [
         year: '2022',
         title: '資策會前端工程師養成班',
         duration: '5 Months',
-        details: '前端網頁設計 — 缺E-BOOK 電子書販售平台 | 聊天室: 設計即時通訊平台 / 優化網頁操作介面'
+        details: '缺E-BOOK 電子書販售平台 | 聊天室 / 優惠券'
     },
     {
         year: '2020',
@@ -17,14 +17,20 @@ const data = [
         year: '2018',
         title: 'ROLLING INDUSTRIAL CORPORATION | 設計人員',
         duration: '6 Months',
-        details: '負責設計法蘭克福車展型錄編修'
+        details: '法蘭克福車展型錄設計'
     },
+    {
+        year: '2016',
+        title: '禾盛企業Logo設計徵選比賽',
+        duration: '1 week',
+        details: '中區學生組佳作'
+    }
 ]
 
 function Work() {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-        <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Work</h1>
+        <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-8'>Work</h1>
         {data.map((item, idx) => (
             <WorkItem 
                 key={idx} 
