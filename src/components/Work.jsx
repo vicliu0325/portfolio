@@ -4,7 +4,7 @@ const data = [
     {
         year: '2022',
         title: '資策會前端工程師養成班',
-        duration: '5 Month',
+        duration: '5 Months',
         details: '前端網頁設計 — 缺E-BOOK 電子書販售平台 | 聊天室: 設計即時通訊平台 / 優化網頁操作介面'
     },
     {
@@ -16,7 +16,7 @@ const data = [
     {
         year: '2018',
         title: 'ROLLING INDUSTRIAL CORPORATION | 設計人員',
-        duration: '6 Month',
+        duration: '6 Months',
         details: '負責設計法蘭克福車展型錄編修'
     },
 ]
