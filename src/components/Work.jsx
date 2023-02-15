@@ -9,13 +9,13 @@ const data = [
     },
     {
         year: '2020',
-        title: '台中軟體園區 Dali Art藝術廣場 營運人員',
+        title: '台中軟體園區 Dali Art藝術廣場 | 營運人員',
         duration: '2 Years',
         details: '櫃台接待 / 客服紀錄 / 展場介紹 / 展場佈置 / 票務處理 / 行銷活動 / 商品管理'
     },
     {
         year: '2018',
-        title: 'ROLLING INDUSTRIAL CORPORATION 設計人員',
+        title: 'ROLLING INDUSTRIAL CORPORATION | 設計人員',
         duration: '6 Month',
         details: '負責設計法蘭克福車展型錄編修'
     },
