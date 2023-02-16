@@ -36,9 +36,9 @@ function Main() {
                 {/* 加入社群連結icon */}
                 <div className='flex justify-between pt-6 max-w-[200px] w-full'>
                     {/* <FaTwitter className='cursor-pointer' size={20}/> */}
-                    <a className='rounded-full shadow-lg bg-gray-100/75 shadow-gray-400 m-2 p-2 hover:scale-110 ease-in duration-300' href='https://www.facebook.com/vic.liu.961'><FaFacebookF className='cursor-pointer' size={20}/></a>
-                    <a className='rounded-full shadow-lg bg-gray-100/75 shadow-gray-400 m-2 p-2 hover:scale-110 ease-in duration-300' href='https://pda.104.com.tw/profile/share/3BxbP05OXBRioBr4zxkLZ2MPzC19pPbw'><BsPersonCircle className='cursor-pointer' size={20}/></a>
-                    <a  className='rounded-full shadow-lg bg-gray-100/75 shadow-gray-400 m-2 p-2 hover:scale-110 ease-in duration-300' href='https://github.com/vicliu0325?tab=overview&from=2022-09-01&to=2022-09-30'><AiFillGithub className='cursor-pointer' size={20}/></a>
+                    <a className='rounded-full shadow-lg bg-gray-100/75 shadow-gray-400 m-2 p-2 border-2 border-white hover:scale-110 ease-in duration-300' href='https://www.facebook.com/vic.liu.961'><FaFacebookF className='cursor-pointer' size={20}/></a>
+                    <a className='rounded-full shadow-lg bg-gray-100/75 shadow-gray-400 m-2 p-2 border-2 border-white  hover:scale-110 ease-in duration-300' href='https://pda.104.com.tw/profile/share/3BxbP05OXBRioBr4zxkLZ2MPzC19pPbw'><BsPersonCircle className='cursor-pointer' size={20}/></a>
+                    <a  className='rounded-full shadow-lg bg-gray-100/75 shadow-gray-400 m-2 p-2 border-2 border-white  hover:scale-110 ease-in duration-300' href='https://github.com/vicliu0325?tab=overview&from=2022-09-01&to=2022-09-30'><AiFillGithub className='cursor-pointer' size={20}/></a>
                 </div>
             </div>
         </div>
